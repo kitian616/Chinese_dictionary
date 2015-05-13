@@ -35,7 +35,7 @@ class DictHTML():
         ##保存为utf-8编码的文件
         
         f=open(r'C:\Users\Chi\Documents\中转站\output0.html','wb')
-        html_u = self.html.encode(self.charset,'ignore')
+        html_u = self.html_doc.encode(self.charset,'ignore')
         f.write(html_u)
         print(':-)')
         f.close()
